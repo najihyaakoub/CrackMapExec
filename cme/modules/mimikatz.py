@@ -22,8 +22,6 @@ class CMEModule:
         if module_options and 'COMMAND' in module_options:
             self.mimikatz_command = module_options['COMMAND']
 
-        #context.log.debug("Mimikatz command: '{}'".format(self.mimikatz_command))
-
         self.obfs_name = gen_random_string()
 
     def on_admin_login(self, context, connection):
