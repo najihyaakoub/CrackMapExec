@@ -1,4 +1,6 @@
 #!/usr/bin/env python2
+import colorama
+colorama.init()
 
 #This must be one of the first imports or else we get threading error on completion
 from gevent import monkey

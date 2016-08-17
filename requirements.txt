@@ -7,3 +7,4 @@ termcolor
 requests
 pyOpenSSL
 msgpack-python
+colorama
